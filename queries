@@ -1,0 +1,9 @@
+-- create ingredient set name = "Narutomaki 🍥", price = 3000, created_at = time::now();
+
+-- select * from ingredient;
+
+-- create dish set name = 'Bandeja paisa', detail = 'El típico almuerzo paisa. Arroz blanco, fríjoles, chicharrón, chorizo, arepa, aguacate, carne molida, plátano frito... ¡¿Con semejante almuerzo tan verraco pa\' qué más?!', price = 21000, additions = [ingredient:5pofhaqzmxsemoin0gph, ingredient:grtyxv82spr6l4kjosb7, ingredient:owkmjedn0jnzpkalmwni, ingredient:p31qemirmzxkm3sxnift, ingredient:zocstueuxojdvuaf10dz], created_at = time::now();
+
+-- select additions.name from dish;
+
+-- create dish set name = 'Chop Suey', detail = 'Se dice que en realidad este plato no es chino, sino una versión occidental de lo que sería un plato chino... Sin atrevernos a dar un veredicto, ¡podemos afirmar que el apio, el cerdo, la zanahoria, la berenjena, y los otros vegetales que lo componen saben muy bien!', price = 20000, additions = [ingredient:fdzz3h5z3ihfyoh02fy9, ingredient:mdzxl627kabwhy1jq4fe], created_at = time::now();
